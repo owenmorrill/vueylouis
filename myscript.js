@@ -1,14 +1,11 @@
-let current_env = 'https://www.morphmarket.com/traits/traits-data.json';
+let current_env = '';
 
 let env = new Vue({
   el: '#env',
   data: {
     envs: {
       'Please select one': '',
-      local: 'https://inventory.local/sites',
-      dev: 'https://osr-atlas01.int.colorado.edu/sites',
-      test: 'https://osr-atlas02.int.colorado.edu/sites',
-      prod: 'https://osr-atlas03.int.colorado.edu/sites'
+      local: 'http://google.com',
     },
     selected: '',
   }
